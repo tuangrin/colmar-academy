@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+ background-color: white;
+ width: 100vw;
+}
+
+
+.gray{
+background-color: lightgray;
+
+}
+
+.white{
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    height: 64px;
+}
+
+nav >  .logo-img {
+    margin-left: 24px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+}
+
+nav > div{
+    height: 32px;
+    gap:0;
+    display: flex;
+    align-items: center;
+
+}
+
+.colmar{
+    font-size: 20px;
+    color: black;
+}
+
+.academy{
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.main-menu{
+    list-style-type: none;
+    margin-left: -16px;
+    gap: 16px;
+    padding-right: 24px;
+}
+
+li > a {
+    color: black;
+    text-decoration: none;
+}
+
+/* section 1*/
+
+.flex-section1{
+    display: flex;
+    padding: 32px 24px;
+}
+
+.img1{
+    width: 60%;
+}
+.img-section{
+    width: 100%;
+}
+
+.detail-sec1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+    width: 30%;
+}
+
+button{
+    background-color: rgb(88, 88, 88);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* section2 */
+
+.flex-section2{
+    display: flex;
+    padding: 32px 0px 32px 24px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.text-top {
+    padding: 0px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.text-bot {
+    padding: 0px;
+    margin: 0px;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    padding-right:24px;
+    width: 60%;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.box2right{
+    /* background-color: lightblue; */
+    width: 40%;
+}
+
+.box2-top{
+    display: flex;
+    background-color: white;
+    border: 0.5px solid rgb(235, 235, 235);
+    /* padding: 16px; */
+}
+
+.box2-bot{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+}
+
+.text2{
+padding-top: 20px;
+}
+
+.text2 > a {
+    color: rgb(31, 153, 214);
+    text-decoration: none;
+}
+
+/* section 3 */
+.sec3{
+    padding: 32px 72px;
+    background-color: rgb(239, 239, 239);
+}
+
+/* .big-box{
+     display: flex;
+     flex-direction: column;;
+     justify-content: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+
+.box3{
+    background-color: rgb(255, 255, 255);
+    /* margin: 0px 32px 32px 0px; */
+    width: 35%;
+    padding-bottom: 24px;
+
+}
+
+.space-box{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.box-top{
+    display: flex;
+}
+
+.box-bottom{
+    padding-top: 32px;
+    display: flex;
+}
+
+
+.flex3-head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-auto-sec3{
+    height: auto;
+    width: 100%;
+    /* margin: 16px; */
+}
+
+h5{
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.box3 > p{
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+/* section4 */
+.last-section{
+    padding: 32px 0px 32px 24px;
+    /* อาจจะต้องมาแก้ margin ขวาให้เท่ากับ 0 */
+}
+.flex4-head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box4{
+    display: flex;
+
+}
+
+.box4left{
+/* border: 2px solid; */
+width: 60%;
+height: 100%;
+/* background-color: gray; */
+}
+
+.box4left > .detail-sec2{
+    width: 100%;
+} 
+
+.video{
+    width: 100%;
+    padding: 0px;
+}
+
+.box4right{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    margin-left: 24px;
+}
+
+.top{
+    height: 50%;
+    display: flex;
+    /* width: 65%; */
+    background-color: rgb(222, 222, 222);
+}
+
+.bottom{
+    display: flex;
+    /* background-color: lightblue; */
+    /* width: 65%; */
+}
+
+.img-auto{
+    height: auto;
+    width: 35%;
+    margin: 16px;
+}
+
+.text4{
+    margin: 16px;
+    width: 65%;
+}
+
+.text4 > h4{
+    font-size: 20px;
+    padding-top: 20px;
+    width: 70%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
